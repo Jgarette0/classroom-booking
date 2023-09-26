@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .error-message {
+      color: red;
+      font-size: 14px;
+  }
+  
+  input[type="text"] {
+      border: 1px solid #ccc;
+  }
+  
+  /* Add more CSS for styling as needed */
+  
+  </style>
+</head>
+<body>
+  <form>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+    <div class="error-message" id="username-error"></div>
+    <input type="submit" value="Submit">
+</form>
+
+<script>
+  document.querySelector('form').addEventListener('submit', function (event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    // Validation logic
+    var usernameInput = document.getElementById('username');
+    var usernameError = document.getElementById('username-error');
+
+    if (!usernameInput.value) {
+        usernameError.textContent = 'Please enter your username.'; // Customize error message
+        usernameError.style.color = 'red'; // Customize error message color
+        usernameInput.style.borderColor = 'red'; // Customize input border color
+        return; // Stop form submission
+    }
+
+    // If validation passes, submit the form or perform further actions
+    this.submit();
+});
+
+</script>
+</body>
+</html>
