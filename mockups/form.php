@@ -8,7 +8,7 @@
 <body>
   
   <main>
-    <form action="form1.php" method="post">
+    <form action="mockups/form1.php" method="post">
       <label for="firatname">Firstname?</label>
         <input id="firstname" type="text" name="firstname" placeholder="Firstname..." >
         <label for="lastname">Lastname?</label>
