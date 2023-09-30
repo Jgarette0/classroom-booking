@@ -6,16 +6,20 @@
   <title>CLASSROOM INTEGRATION SYSTEM</title>
   <link rel="stylesheet" href="css/login.css">
   <link rel="stylesheet" href="css/responsive.css">
+  <script src="login.js" ></script>
 </head>
 <body>
   
   <form class="login" action="dashboard.php" method="post">
-  <center><?php include 'includes/registrationhandler.php'; ?></center>
+
   <div class="form-top">
     <div class="form-top-header">
       LOGIN
     </div>
   </div>
+      <center class="centered-content" id="fullname-content">
+      <?php include 'includes/registrationhandler.php'; ?>
+    </center>
   <div class="form-middle">
       <div>
         <label for="username">Username : 

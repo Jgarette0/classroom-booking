@@ -8,7 +8,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 
 
-  echo "Hello "; echo $fullname; echo ". Login your account";
+  echo "Hello $fullname, please log in to your account.";
+
+
+  //header("Location: registration.php");
   
+}
+else {
+  header("Location: index.php");
 }
 ?>

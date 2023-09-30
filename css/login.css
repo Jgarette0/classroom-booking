@@ -121,5 +121,16 @@ opacity: 1;
   font-family: 'Courier New', Courier, monospace;
   font-size: 10px;
   column-gap: 3px;
-  
+}
+.centered-content {
+  font-size: 12px;
+  color: #03ce00;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 10px;
+  opacity: 1;
+}
+
+.fade-out {
+  transition: ease .5s;
+  opacity: 0;
 }
