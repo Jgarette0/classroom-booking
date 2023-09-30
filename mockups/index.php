@@ -34,5 +34,25 @@ echo "Height: ";echo $float;
 ?>
 <h1>Hi I am <?php echo $test; ?> and I am learning php</h1> 
 
+<?php 
+echo $_SERVER["DOCUMENT_ROOT"];
+echo $_SERVER["PHP_SELF"]; 
+?>
+<br>
+<?php
+echo $_SERVER["REQUEST_METHOD"];
+echo $_GET["name"];
+?>
+<br>
+<?php
+echo $_GET["color"];
+?>
+<br>
+<?php
+$_SESSION["username"] = "JILIAN";
+echo $_SESSION["username"];
+$SESSION["age"] = "21";
+echo $_SESSION["age"];
+?>
 </body>
 </html>

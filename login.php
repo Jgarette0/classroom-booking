@@ -4,11 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CLASSROOM INTEGRATION SYSTEM</title>
-  <link rel="stylesheet" href="css/user.css">
+  <link rel="stylesheet" href="css/login.css">
   <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-  <form class="registration">
+  
+  <form class="login" action="dashboard.php" method="post">
+  <center><?php include 'includes/registrationhandler.php'; ?></center>
   <div class="form-top">
     <div class="form-top-header">
       LOGIN
@@ -17,7 +19,7 @@
   <div class="form-middle">
       <div>
         <label for="username">Username : 
-          <input type="text" class="username" placeholder="Enter your username" required>
+          <input type="text" class="username"  placeholder="Enter your username" required>
         </label> 
     </div>
     <div>
