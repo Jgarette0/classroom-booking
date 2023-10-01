@@ -15,7 +15,7 @@
       <div class="div1baa">Already have an account?  <a href="login.php">Sign in </a> </div>
     </div>
     <div class="div21">
-      <form class="login" action="dashboard.php" method="post">
+      <form class="login" action="includes/formhandler.inc.php" method="post">
         <div class="div2aa">
           <div>
             <label for="email">Enter your email</label>
