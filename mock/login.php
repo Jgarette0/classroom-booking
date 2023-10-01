@@ -3,15 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CLASSROOM INTEGRATION SYSTEM</title>
-  <link rel="stylesheet" href="css/user.css">
-  <link rel="stylesheet" href="css/responsive.css">
-  <script src="login.js" ></script>
+  <title>Login</title>
 </head>
 <body>
   <div class="login-container">
     <div class="div1">
-      <div class="div1a"><img src="images/cctc.png" alt="CCTC"></div>
+      <div class="div1a"><img src="../images/cctc.png" alt="CCTC"></div>
       <div class="div1b">Sign in to CCTC-Guide</div>
     </div>
     <div class="div2">
@@ -35,7 +32,7 @@
     </div>
     <div class="div3">
         <div>
-          New to CCTC-guide? <a class="create-account" href="registration.php">Create an account</a>
+          New to CCTC-guide? <a href="">Create an account</a>
         </div>
     </div>
   </div>
