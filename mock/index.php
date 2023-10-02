@@ -9,13 +9,43 @@
   <script src="login.js" ></script>
 </head>
 <body>
+<div class="login-container">
+    <div class="div11">
+      <div class="div1aa"><img src="images/cctc.png" alt="CCTC"></div>
+      <div class="div1baa"><div>Already have an account?  <a href="login.php">Sign in </a> </div></div>
+    </div>
+    <div class="div21">
+      <form class="login" action="../includes/userupdate.inc.php" method="post">
+        <div class="div2aa">
+          <div>
+            <label for="email">Enter your email</label>
+            <input type="text" name="email"class="email" id="email">
+          </div>
+          <div>
+            <label for="password">Enter a password</label>
+            <input type="password" name="password"class="password" id="password">
+          </div>
+          <div>
+            <label for="password">Enter a username</label>
+            <input type="text" name="username"class="username" id="username">
+          </div>
+          <div>
+            <button type="submit" class="submit">
+              Create account
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <hr>
   <div class="login-container">
     <div class="div11">
       <div class="div1aa"><img src="images/cctc.png" alt="CCTC"></div>
       <div class="div1baa"><div>Already have an account?  <a href="login.php">Sign in </a> </div></div>
     </div>
     <div class="div21">
-      <form class="login" action="includes/formhandler.inc.php" method="post">
+      <form class="login" action="../includes/userdelete.inc.php" method="post">
         <div class="div2aa">
           <div>
             <label for="email">Enter your email</label>

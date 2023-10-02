@@ -1,5 +1,19 @@
-<?php
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php
+/*
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 
   $fullname = htmlspecialchars($_POST["fullname"]);
@@ -17,4 +31,5 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 else {
   header("Location: index.php");
 }
+*/
 ?>

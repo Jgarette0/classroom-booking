@@ -39,5 +39,10 @@
         </div>
     </div>
   </div>
+  <div class="terms">
+    <div><p>
+    By creating an account, you agree to the <a href="#">Classroom Vacancy Detection Terms of Use</a>. For more details on how we handle your data, please review our <a href="#">Privacy Policy</a>. We'll send you occasional account-related notifications.
+    </p></div>
+  </div>
 </body>
 </html>

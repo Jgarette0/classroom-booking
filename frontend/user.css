@@ -46,7 +46,7 @@ body{
   width: 310px;
   height: 200px;
   justify-content: center;
-  border: 1px solid gray;
+  border: 1px solid #273981;
   border-radius: 6px;
 }
 .div2a{
@@ -57,16 +57,17 @@ body{
   justify-content: space-between;
   box-sizing: border-box;
 }
-
 .email,
 .password,
 .username{
-  width: 95.8%;
+  width: 78%;
   margin-top:7px;
   padding:5px;
   border-radius:5px;
-  border:1px solid gray;
+  border:1px solid #273981;
   margin-bottom: none;
+  padding-left: 29px;
+  padding-right:30px;
 
 }
 .email:hover,
@@ -80,7 +81,7 @@ body{
   padding:6px;
   border-radius:4px;
   border:none;
-  background-color: #166fe5;
+  background-color: #273981;
   color: white;
   
 }
@@ -91,7 +92,7 @@ body{
   width: 310px;
   margin-top: 14px;
   border-radius: 6px;
-  border:1px solid gray;
+  border:1px solid #273981;
   height: 60px;
   justify-content: center;
   
@@ -99,37 +100,37 @@ body{
 
 .submit:hover{
   transition:ease .3s;
-  background-color: #1877f2;
+  background-color: #3248a2;
 }
 
 .create-account{
-  color:#166fe5;
+  color:#273981;
 }
 
 
-.div11{
+.header-div{
   display: flex;
   flex-direction: column;
   height: 130px;
   width: 310px;
 
 }
- .div1aa,.div1baa{
+ .logo-container,.login-link-container{
   height: 65px;
   box-sizing: border-box;
   overflow: hidden;
  }
- .div1aa {
+ .logo-container {
   display: flex;
   flex-direction: column;
 }
 
-.div1aa img {
+.logo-container img {
   width: 40px;
   height: 40px;
   margin-top: auto; 
 }
-.div1baa{
+.login-link-container{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -137,19 +138,19 @@ body{
   font-size: 14px;
 }
 
-.div1baa a{
+.login-link-container a{
   margin-left: 5px;
   text-decoration: none;
-  color: #166fe5;
+  color: #273981;
 }
-.div1baa a:hover{
+.login-link-container a:hover{
   text-decoration:underline;
 }
-.div1baa a img {
+.login-link-container a img {
  vertical-align: middle;
 }
 
-.div21{
+.form-div{
   position: relative;
   display: flex;
   flex-direction: column;
@@ -157,11 +158,11 @@ body{
   width: 310px;
   height: 274px;
   justify-content: center;
-  border: 1px solid gray;
+  border: 1px solid #273981;
   border-radius: 6px;
 }
 
-.div2aa{
+.inputs-container{
    width: 280px;
   height: 235px;
   display: flex;
@@ -169,8 +170,8 @@ body{
   justify-content: space-between;
   box-sizing: border-box;
 }
-.terms{
-  width: 305px;
+.category-div{
+  width: 310px;
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
@@ -180,14 +181,32 @@ body{
   height: 120px;
   margin: 0 auto;
 }
-.terms a{
+.category-div a{
   text-decoration:none ;
 }
-.terms a:hover{
+.category-div a:hover{
   text-decoration: underline;
 }
 
-.terms p{
+.category-div p{
   width: 305px;
   text-align: justify;
+}
+.password-viewer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  input, label {
+    padding: 3% 4%;
+  }
+}
+input, label {
+  padding: 2% 3%;
 }
