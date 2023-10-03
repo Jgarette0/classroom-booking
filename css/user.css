@@ -191,3 +191,12 @@ body{
   width: 305px;
   text-align: justify;
 }
+.password-div{
+  width: 100%;
+  margin-right: -2px;
+  }
+  .password-inputs{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  }

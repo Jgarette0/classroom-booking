@@ -23,13 +23,13 @@
       <!-- This POST method will be used as the HTTP method for sending data to the database later on. -->
       <div class="form-div">
         <form class="login-form" 
-              action="includes/formhandler.inc.php" 
+              action="../includes/formhandler.inc.php" 
               method="post">
           <div class="inputs-container">
             <div>
               <label for="email">Enter your email</label>
                <!-- Input field for user's email -->
-              <input type="text" name="email"class="email" id="email">
+              <input type="text" name="email"class="email" id="email" placeholder="cctc-guide@gmail.com">
             </div>
             <!-- This is an animation icon from https://lordicon.com/ -->
             <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
@@ -43,7 +43,7 @@
               <div>
                 <label for="password">Enter a password</label>
                  <!-- Input field for user's password -->
-                <input type="password" name="password"class="password" id="password">
+                <input type="password" name="password"class="password" id="password" placeholder="Password">
               </div>
                <!-- This is an animation icon from https://lordicon.com/ -->
               <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
@@ -61,7 +61,7 @@
             <div>
               <label for="password">Enter a username</label>
                <!-- Input field for user's username -->
-              <input type="text" name="username"class="username" id="username">
+              <input type="text" name="username"class="username" id="username" placeholder="Username">
             </div>
              <!-- This is an animation icon from https://lordicon.com/ -->
             <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
