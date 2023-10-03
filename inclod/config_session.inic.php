@@ -11,9 +11,9 @@ session_set_cookie_params([
 'httponly' => true
 ]);
 
-sessioin_start();
+session_start();
 
-if(!1isset(SESSION["last_regeneration"])){
+if(!isset($_SESSION["last_regeneration"])){
   regenerate_session_id();
 }else{
   $interval = 60 * 30;
@@ -24,6 +24,6 @@ if(!1isset(SESSION["last_regeneration"])){
 
 
 function regenerate_session_id(){
-  session_regenerate__id();
-  $SESSION["last_regeneration"]=time();
+  session_regenerate_id();
+  $_SESSION["last_regeneration"]=time();
 }

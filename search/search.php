@@ -20,8 +20,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $stmt = null;
   }
   catch(PDOException $e){
-   die("Query failed: ".$e->getMessage()); 
-  }
+    die("Query failed: ".$e->getMessage()); 
+   }
 
   
 } 

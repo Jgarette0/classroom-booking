@@ -198,39 +198,39 @@ body{
   align-items: center;
 
 }
-              .password-div{
-                width: 100%;
-                margin-right: -2px;
-              }
-              .password-inputs{
-                display: flex;
-                flex-direction: row;
-                align-items:center;
-             
-              }
-              .terms-container-div{
-                width: 305px;
-                display: flex;
-                flex-direction: row;
-                box-sizing: border-box;
-                font-size: 12px;
-                justify-content: space-between;
-                align-items: center;
-                height: 120px;
-                margin: 0 auto;
-              }
-              .terms-container-div a{
-                text-decoration:none ;
-              }
-              .terms-container-div a:hover{
-                text-decoration: underline;
-              }
-              
-              .terms-container-div p{
-                width: 305px;
-                text-align: justify;
-              }
-              
+.password-div{
+  width: 100%;
+  margin-right: -2px;
+}
+.password-inputs{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+
+}
+.terms-container-div{
+  width: 305px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  font-size: 12px;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  margin: 0 auto;
+}
+.terms-container-div a{
+  text-decoration:none ;
+}
+.terms-container-div a:hover{
+  text-decoration: underline;
+}
+
+.terms-container-div p{
+  width: 305px;
+  text-align: justify;
+}
+
 @media (max-width: 768px) {
   body {
     font-size: 14px;
