@@ -3,7 +3,7 @@
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>CLASSROOM INTEGRATION SYSTEM</title>
+      <title>CLASSROOM</title>
       <link rel="stylesheet" href="accounts/user.css">
       <link rel="stylesheet" href="css/responsive.css">
     </head>
